@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load the model
-model = joblib.load('https://github.com/prasad-chavan1/doyouwannagooutwithme/blob/main/model.pkl')
+model = joblib.load('model.pkl')
 
 # Define the categorical columns and their possible values
 categorical_features = {
